@@ -1,0 +1,3 @@
+libraries in .so nazvané "lib+classname+".so
+protected keywor not private?
+compile the libraries sepreatley so the clases are separated

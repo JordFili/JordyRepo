@@ -1,0 +1,2 @@
+g++ -c -fPIC TwoDimensionalMeasurement.cpp -o TwoDimensionalMeasurement.o
+g++ -shared -Wl,-soname,libTwoDimensionalMeasurement.so -o libTwoDimensionalMeasurement.so TwoDimensionalMeasurement.o

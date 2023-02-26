@@ -1,0 +1,23 @@
+  $(FILE).pdf:	$(wildcard).tex	$(wildcard).bib
+	$(MAKE) All
+all:
+	-$(MAKE) tex
+	$(MAKE) metafont
+	$(MAKE) bibtex
+	$(MAKE) tex
+	$(MAKE) tex
+	$(MAKE) dvips
+	$(MAKE) pdf
+	$(MAKE) view;
+	
+tex:
+	latex $(FILE).tex
+	
+mf:
+	mf "\mode=localfont; scattering1.mf; scattering2;"
+	
+dvips:
+	dvips $(LATEX) -o
+	
+cleanAll:
+	$(MAKE) clean

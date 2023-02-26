@@ -1,0 +1,12 @@
+CC = g++
+CFLAGS = -std=c++11 -Wall
+TARGET = hello_world
+SOURCES = hello_world.cpp
+
+all: $(TARGET)
+
+$(TARGET): $(SOURCES)
+	$(CC) $(CFLAGS) -o $@ $^
+
+clean:
+	rm -f $(TARGET)

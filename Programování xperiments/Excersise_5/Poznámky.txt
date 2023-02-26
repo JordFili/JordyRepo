@@ -1,0 +1,19 @@
+(hashtage)"Ttree.h"
+(hashtage)"TRandom"
+(hashtage)"Tfile.h" - Tyhle 3 veci jsou pro úkol 6
+
+void "name(profs. name was: wrting)"()
+
+void reading() for reading root files
+Tfile* myFile=Tfile::Open("tree.root")
+Tbranch*Mybranch=myTree->Get branchc ("gausian")
+
+Thist
+
+TCanvas
+
+ymHisto->Fit ("gaus")
+
+myCanvas->Print ("plot.C")   - For later editing
+myCanvas->Print ("plot.jpg") - For Word/presentation
+myCanvas->Print ("plot.eps") - For latex

@@ -1,5 +1,5 @@
 !!!!!!!!!   parameters that define the process !!!!!!!!!!!!!!!!!!
-higgstype 2 ! higgs type: 1 = light CP even; 2 = heavy CP even; 3 = pseudoscalar
+higgstype 1 ! higgs type: 1 = light CP even; 2 = heavy CP even; 3 = pseudoscalar
 ih1   1           ! hadron 1 (1 for protons, -1 for antiprotons)
 ih2   1           ! hadron 2 (1 for protons, -1 for antiprotons)
 ebeam1 6500     ! energy of beam 1
